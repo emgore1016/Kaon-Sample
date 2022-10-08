@@ -16,26 +16,30 @@ body {
 }
 
 .page {
-	transform: translate(100%);
 	transition: 0.5s transform ease;
 }
 
 .page[data-page="entry"] {
-	transform: translate(-100%);
+	transform: translate(0);
 	background: lightblue;
-	text-align: right;
+	text-align: center;
 }
 
 .page[data-page="inner_1"] {
+	transform: translate(-75%);
 	background: lightcoral;
 }
 
 .page[data-page="inner_2"] {
+	transform: translate(75%);
 	background: lightgreen;
 }
 
 .page.active {
 	transform: translate(0);
+	/* background: lightyellow; */
+	display: block;
+	z-index: 1;
 }
 
 .button {
