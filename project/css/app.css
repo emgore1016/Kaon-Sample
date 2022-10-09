@@ -1,5 +1,10 @@
+@font-face {
+	font-family: customFont;
+	src: url(../../assets/JosefinSans-Regular.ttf);
+}
+
 html {
-	font-family: sans-serif;
+	font-family: customFont;
 	font-size: 48px;
 }
 
