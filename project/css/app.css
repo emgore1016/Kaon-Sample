@@ -118,6 +118,31 @@ img {
 	width: 2rem;
 }
 
+#menu {
+	opacity: 0;
+	transition: opacity .5s ease-out 500ms;
+	background-color: gray;
+	color: white;
+	padding: 1rem;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.menu.item {
+	padding: 0 3rem;
+	transition: background-color 1s ease-out 100ms;
+}
+
+.menu.item:hover {
+	background-color: rgb(56, 56, 56);
+}
+
+hr {
+	margin: .5rem;
+}
+
 @keyframes pulse {
 	0% {
 		transform: translate(-50%, -50%) scale(0);
