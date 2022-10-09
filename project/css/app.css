@@ -27,10 +27,43 @@ img {
 	height: 100vh;
 }
 
+#entryPageLeft {
+	background: url('../../assets/gov_bg.png');
+	filter: brightness(60%);
+	background-position: left, right;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	width: 50vw;
+	height: 100vh;
+	position: absolute;
+	left: 0px;
+}
+
+#entryPageRight {
+	background: url('../../assets/hc_bg.png');
+	filter: brightness(60%);
+	background-position: left, right;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	width: 50vw;
+	height: 100vh;
+	position: absolute;
+	right: 0px;
+}
+
+#entryPageDivBar {
+	background-color: gray;
+	box-shadow: 0 0 10px 1px #00000044;
+	height: 100vh;
+	width: 1vw;
+	position: absolute;
+	right: 50%;
+}
+
 .page[data-page="entry"] {
 	transform: translate(0);
-	background: lightblue;
-	text-align: center;
 }
 
 .page[data-page="inner_1"] {
@@ -43,7 +76,10 @@ img {
 
 .page[data-page="inner_2"] {
 	transform: translate(100%);
-	background: lightgreen;
+	background-image: url('../../assets/hc_bg.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 .page.active {
@@ -65,7 +101,7 @@ img {
 
 .button.entry {
 	padding: .5rem .5rem 2rem .5rem;
-	background-color: rgba(128, 128, 128, .5);
+	background-color: rgba(128, 128, 128, .75);
 }
 
 .button.government {
