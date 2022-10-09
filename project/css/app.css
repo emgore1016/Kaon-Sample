@@ -72,6 +72,13 @@ img {
 	right: 0;
 }
 
+.button.explore {
+	padding: .5rem 1rem;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
 .button::after {
 	content: "";
 	position: absolute;
