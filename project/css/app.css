@@ -5,7 +5,7 @@
 
 html {
 	font-family: customFont;
-	font-size: 48px;
+	font-size: 5vh;
 }
 
 body {
@@ -35,7 +35,10 @@ img {
 
 .page[data-page="inner_1"] {
 	transform: translate(-100%);
-	background: lightcoral;
+	background-image: url('../../assets/gov_bg.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 .page[data-page="inner_2"] {
