@@ -7,13 +7,14 @@ $(function () {
 	});
 
 	$(".explore").on("touchend", function () {
-		if ($('#menu').css('opacity') == 1) {
+		$('.button.back.right.menu').css('display', 'block');
+		$('#menu').css('opacity', '1');
+		$('.explore').css('opacity', '0');
+	});
 
-			$('#menu').css('opacity', '0');
-		}
-		else {
-			$('#menu').css('opacity', '1');
-		}
-		//$("#menu").fadeToggle(2000);
+	$(".button.back.right.menu").on("touchend", function () {
+		$('.button.back.right.menu').css('display', 'none');
+		$('#menu').css('opacity', '0');
+		$('.explore').css('opacity', '1');
 	});
 });
