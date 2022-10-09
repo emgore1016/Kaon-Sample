@@ -7,6 +7,11 @@ body {
 	overflow: hidden;
 }
 
+img {
+	height: 50px;
+	width: 50px;
+}
+
 .page {
 	position: absolute;
 	top: 0;
@@ -26,28 +31,28 @@ body {
 }
 
 .page[data-page="inner_1"] {
-	transform: translate(-75%);
+	transform: translate(-100%);
 	background: lightcoral;
+	text-align: right;
 }
 
 .page[data-page="inner_2"] {
-	transform: translate(75%);
+	transform: translate(100%);
 	background: lightgreen;
+	text-align: left;
 }
 
 .page.active {
 	transform: translate(0);
 	/* background: lightyellow; */
-	display: block;
-	z-index: 1;
 }
 
 .button {
 	color: white;
-	background: black;
+	background: gray;
 	padding: 1rem;
 	display: inline-block;
-	margin: 1rem;
+	margin: 1rem 0;
 	position: relative;
 	overflow: hidden;
 }
