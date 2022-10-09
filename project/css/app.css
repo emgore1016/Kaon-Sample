@@ -14,15 +14,12 @@ img {
 }
 
 .page {
+	transition: 0.5s transform ease;
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100vw;
 	height: 100vh;
-}
-
-.page {
-	transition: 0.5s transform ease;
 }
 
 .page[data-page="entry"] {
@@ -34,13 +31,11 @@ img {
 .page[data-page="inner_1"] {
 	transform: translate(-100%);
 	background: lightcoral;
-	text-align: right;
 }
 
 .page[data-page="inner_2"] {
 	transform: translate(100%);
 	background: lightgreen;
-	text-align: left;
 }
 
 .page.active {
@@ -61,16 +56,20 @@ img {
 .button.back {
 	width: fit-content;
 	padding: .5rem 0;
+	position: absolute;
+	top: 0;
 }
 
 .button.back.left {
 	padding-left: 1rem;
 	padding-right: 2rem;
+	left: 0;
 }
 
 .button.back.right {
 	padding-right: 1rem;
 	padding-left: 2rem;
+	right: 0;
 }
 
 .button::after {
