@@ -17,4 +17,14 @@ $(function () {
 		$('#menu').css('opacity', '0');
 		$('.explore').css('opacity', '1');
 	});
+
+	$(".hc_option").on("mouseover", function () {
+		$(this).children(".hc_button").css('background-color', 'rgb(56, 56, 56)');
+		$(this).children(".triangle").css('border-top', '1rem solid rgb(56, 56, 56)');
+	});
+
+	$(".hc_option").on("mouseout", function () {
+		$(this).children(".hc_button").css('background-color', 'gray');
+		$(this).children(".triangle").css('border-top', '1rem solid gray');
+	});
 });

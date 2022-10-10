@@ -184,6 +184,31 @@ hr {
 	margin: .5rem;
 }
 
+.hc_option {
+	text-align: center;
+	display: inline-grid;
+	justify-items: center;
+}
+
+.hc_button {
+	background-color: gray;
+	color: white;
+	width: fit-content;
+	margin: 0 auto;
+	padding: .5rem 1.5rem;
+	transition: background-color 1s ease-out 100ms;
+}
+
+.triangle {
+	width: 0;
+	height: 0;
+	border-left: 1rem solid transparent;
+	border-right: 1rem solid transparent;
+	border-top: 1rem solid gray;
+	display: inline-block;
+	transition: border-top 1s ease-out 100ms;
+}
+
 @keyframes pulse {
 	0% {
 		transform: translate(-50%, -50%) scale(0);
