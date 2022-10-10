@@ -72,6 +72,7 @@ img {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
+	background-position: center;
 }
 
 .page[data-page="inner_2"] {
@@ -80,6 +81,7 @@ img {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
+	background-position: center;
 }
 
 .page.active {
@@ -188,16 +190,22 @@ hr {
 	display: inline-grid;
 	justify-items: center;
 	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: fit-content;
+	height: 1rem;
+
 }
 
 #optionA {
-	top: 25%;
-	left: 25%
+	transform: translate(-100%, -500%);
 }
 
 #optionB {
-	top: 35%;
-	left: 60%
+	transform: translate(50%, -200%);
 }
 
 .hc_button {
