@@ -19,7 +19,7 @@ img {
 }
 
 .page {
-	transition: 0.5s transform ease;
+	transition: 1s transform ease;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -84,7 +84,6 @@ img {
 
 .page.active {
 	transform: translate(0);
-	/* background: lightyellow; */
 }
 
 .button {
