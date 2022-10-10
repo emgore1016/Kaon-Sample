@@ -1,6 +1,6 @@
 @font-face {
 	font-family: customFont;
-	src: url(../../assets/JosefinSans-Regular.ttf);
+	src: url(../assets/JosefinSans-Regular.ttf);
 }
 
 html {
@@ -28,7 +28,7 @@ img {
 }
 
 #entryPageLeft {
-	background: url('../../assets/gov_bg.png');
+	background: url('../assets/gov_bg.png');
 	filter: brightness(60%);
 	background-position: left, right;
 	background-repeat: no-repeat;
@@ -41,7 +41,7 @@ img {
 }
 
 #entryPageRight {
-	background: url('../../assets/hc_bg.png');
+	background: url('../assets/hc_bg.png');
 	filter: brightness(60%);
 	background-position: left, right;
 	background-repeat: no-repeat;
@@ -68,7 +68,7 @@ img {
 
 .page[data-page="inner_1"] {
 	transform: translate(-100%);
-	background-image: url('../../assets/gov_bg.png');
+	background-image: url('../assets/gov_bg.png');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -77,7 +77,7 @@ img {
 
 .page[data-page="inner_2"] {
 	transform: translate(100%);
-	background-image: url('../../assets/hc_bg.png');
+	background-image: url('../assets/hc_bg.png');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
