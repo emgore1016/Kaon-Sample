@@ -187,6 +187,17 @@ hr {
 	text-align: center;
 	display: inline-grid;
 	justify-items: center;
+	position: absolute;
+}
+
+#optionA {
+	top: 25%;
+	left: 25%
+}
+
+#optionB {
+	top: 35%;
+	left: 60%
 }
 
 .hc_button {
