@@ -105,6 +105,16 @@ img {
 	background-color: rgba(128, 128, 128, .75);
 }
 
+#entry_center {
+	background-color: #ffffffa3;
+	padding: 0.5rem 0.5rem 2rem 0.5rem;
+	height: 2.5rem;
+	margin-top: 1rem;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
 .button.government {
 	left: 0;
 	text-align: right;
